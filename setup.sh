@@ -1,10 +1,11 @@
 PROJECT_NAME="myapp"
+NODE_VERSION="22.2.0"
 
 mkdir $PROJECT_NAME
 cd $PROJECT_NAME
 
 ## Install Node LTS
-echo 22.2.0 > .node-version
+echo $NODE_VERSION > .node-version
 nodenv install
 node -v
 
