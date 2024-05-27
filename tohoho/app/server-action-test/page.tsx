@@ -8,7 +8,7 @@ export default function Page() {
     <>
       <h1>Server Action Test</h1>
       <form action={serverside_action_test}>
-        <input type="text" name="message" />
+        <input type="text" name="message" defaultValue="何か入力" /> {/* デフォルト値を入力する場合はvalue=""ではなくdefaultValueを使用する */}
         <button type="submit">OK</button> {/* クライアントのフォームに入力したメッセージがサーバに送られ、サーバのコンソールに出力される */}
       </form>
     </>
