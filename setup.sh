@@ -1,7 +1,7 @@
-APPNAME="myapp"
+PROJECT_NAME="myapp"
 
-mkdir $APPNAME
-cd $APPNAME
+mkdir $PROJECT_NAME
+cd $PROJECT_NAME
 
 ## Install Node LTS
 echo 22.2.0 > .node-version

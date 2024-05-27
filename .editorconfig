@@ -1,0 +1,56 @@
+root = true
+
+####################
+## Base settings
+####################
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+tab_width = 2
+indent_style = space
+insert_final_newline = false
+trim_trailing_whitespace = false
+
+####################
+## PHP
+####################
+[*.php]
+insert_final_newline = true
+
+####################
+## Go
+####################
+[*.go]
+indent_style = tab
+
+####################
+## frontend
+####################
+[*.html]
+indent_size = 2
+tab_width = 2
+
+[*.js]
+indent_size = 2
+tab_width = 2
+
+[*.jsx]
+indent_size = 2
+tab_width = 2
+
+[*.tsx]
+indent_size = 2
+tab_width = 2
+
+####################
+## text
+####################
+[*.json]
+indent_size = 2
+tab_width = 2
+
+[*.yml]
+indent_size = 2
+tab_width = 2
+
