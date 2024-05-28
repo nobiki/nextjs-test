@@ -1,5 +1,5 @@
 PROJECT_NAME="myapp"
-NODE_VERSION="22.2.0"
+NODE_VERSION=`cat .node-version`
 
 mkdir $PROJECT_NAME
 cd $PROJECT_NAME
@@ -13,8 +13,8 @@ node -v
 curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore
 
 ## Install Next.js
-npm install next@latest react@latest react-dom@latest typescript@latest @types/react @types/node
 mkdir app
+npm install next@latest react@latest react-dom@latest typescript@latest @types/react @types/node
 
 ## Install Tailwind CSS
 npm install -D tailwindcss postcss autoprefixer
